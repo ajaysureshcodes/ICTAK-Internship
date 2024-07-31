@@ -8,7 +8,6 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
 
-# Load the models
 knn1 = pickle.load(open('knn1.pkl', 'rb'))
 knn2 = pickle.load(open('knn2.pkl', 'rb'))
 knn3 = pickle.load(open('knn3.pkl', 'rb'))
